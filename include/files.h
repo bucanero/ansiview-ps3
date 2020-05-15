@@ -9,7 +9,7 @@
 #include "sauce.h"
 #include "list.h"
 
-#define ANSIVIEW_PATH			"/dev_hdd0/game/NP0ANSILV/USRDIR/"
+#define ANSIVIEW_PATH			"/dev_hdd0/game/NP0ANSIVW/USRDIR/"
 #define ANSIVIEW_DATA_PATH		ANSIVIEW_PATH "DATA/"
 #define ANSIVIEW_MUSIC_PATH		ANSIVIEW_PATH "MUSIC/"
 #define ANSIVIEW_LOCAL_CACHE	ANSIVIEW_PATH "CACHE/"
