@@ -79,9 +79,9 @@ UDP multicast address `239.255.0.100:30000`. To receive them you can use [socat]
 
 [PSDLE]: https://repod.github.io/psdle/
 [socat]: http://www.dest-unreach.org/socat/
-[app_downloads]: https://github.com/bucanero/apollo-ps3/releases
-[app_latest]: https://github.com/bucanero/apollo-ps3/releases/latest
-[app_license]: https://github.com/bucanero/apollo-ps3/blob/master/LICENSE
-[img_downloads]: https://img.shields.io/github/downloads/bucanero/apollo-ps3/total.svg?maxAge=3600
-[img_latest]: https://img.shields.io/github/release/bucanero/apollo-ps3.svg?maxAge=3600
-[img_license]: https://img.shields.io/github/license/bucanero/apollo-ps3.svg?maxAge=2592000
+[app_downloads]: https://github.com/bucanero/ansiview-ps3/releases
+[app_latest]: https://github.com/bucanero/ansiview-ps3/releases/latest
+[app_license]: https://github.com/bucanero/ansiview-ps3/blob/master/LICENSE
+[img_downloads]: https://img.shields.io/github/downloads/bucanero/ansiview-ps3/total.svg?maxAge=3600
+[img_latest]: https://img.shields.io/github/release/bucanero/ansiview-ps3.svg?maxAge=3600
+[img_license]: https://img.shields.io/github/license/bucanero/ansiview-ps3.svg?maxAge=2592000
