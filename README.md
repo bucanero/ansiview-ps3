@@ -57,10 +57,10 @@ The application provides direct access to the [16colors database](https://16colo
 You need to have installed:
 
 - [PS3 toolchain](https://github.com/bucanero/ps3toolchain)
-- [PSL1GHT](https://github.com/bucanero/PSL1GHT) library
+- [PSL1GHT](https://github.com/bucanero/PSL1GHT) SDK
 - [libansilove](https://github.com/bucanero/libansilove) library (my own custom version)
 - [Tiny3D](https://github.com/Estwald/PSDK3v2/tree/master/libraries-src/Tiny3D) library (from Estwald)
-- [curl](https://github.com/ps3dev/ps3libraries/blob/master/scripts/016-libcurl-7.31.0.sh) library
+- [libcurl](https://github.com/ps3dev/ps3libraries/blob/master/scripts/016-libcurl-7.31.0.sh) library
 - [dbglogger lib](https://github.com/bucanero/psl1ght-libs/tree/master/dbglogger) (my own debug logging library)
 
 Run `make` to create a release build. After that, run `make pkg` to create a `.pkg` install file. 
