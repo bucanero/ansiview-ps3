@@ -4,7 +4,7 @@
 
 **ANSi View** is an application to view ANSi and artscene related file formats on the PlayStation 3.
 
-The `ansiview-ps3` homebrew app supports viewing ANS/PCB/BIN/ADF/IDF/TND/XB/ASC/NFO/DIZ files directly on your PS3.
+The `ansiview-ps3` homebrew app supports viewing ANSI and ASCII files directly on your PS3.
 
 ![image](./docs/screenshots/screenshot_main.png)
 
@@ -12,6 +12,36 @@ The `ansiview-ps3` homebrew app supports viewing ANS/PCB/BIN/ADF/IDF/TND/XB/ASC/
 
 # Features
 
+The following formats are supported:
+
+ - `.ANS` - ANSi (ANSI escape sequences: ANSI X3.64 standard)
+ - `.PCB` - PCBoard Bulletin Board System (BBS) own file format
+ - `.BIN` - Binary format (raw memory copy of text mode video memory)
+ - `.ADF` - Artworx format, supporting custom character sets and palettes
+ - `.IDF` - iCE Draw format, supporting custom character sets and palettes
+ - `.TND` - TundraDraw format, supporting 24-bit color mode
+ - `.XB` - The eXtended Binary XBin format, supporting custom character sets and palettes
+ - `.TXT`, `.ASC`, `.NFO`, `.DIZ` - ASCII text files
+ 
+ Supported Background music formats:
+ 
+ - `.669` - Composer 669, Unis 669
+ - `.AMF` - DSMI Advanced Module Format
+ - `.DSM` - DSIK internal format
+ - `.FAR` - Farandole Composer
+ - `.GDM` - General DigiMusic
+ - `.IT` - Impulse Tracker
+ - `.IMF` - Imago Orpheus
+ - `.MOD` - 15/31 instruments
+ - `.MED` - OctaMED
+ - `.MTM` - MultiTracker Module editor
+ - `.OKT` - Amiga Oktalyzer
+ - `.S3M` - Scream Tracker 3
+ - `.STM` - Scream Tracker
+ - `.STX` - Scream Tracker Music Interface Kit
+ - `.ULT` - UltraTracker
+ - `.APUN` - APlayer and UNI (MikMod)
+ - `.XM` - FastTracker 2
 
 # Download
 
@@ -40,9 +70,9 @@ It will open the context menu on the screen. Press ![O button](https://github.co
 - **USB art packs:** your folders must be placed on `/dev_usb000/ANSIVIEW/` or `/dev_usb001/ANSIVIEW/`.
 - **HDD art packs:** folders will be scanned from `/dev_hdd0/game/NP0ANSIVW/USRDIR/DATA/`.
 
-# 16colors Artscene database
+# 16colors ANSI/ASCII archive
 
-The application provides direct access to the [16colors database](https://16colo.rs) of artscene files. You can browse their entire art collection (1990 - 2020) if your PS3 has a network connection available.
+The application provides direct access to the [16colors archive](https://16colo.rs) of artscene files. You can browse their entire art collection (1990 - 2020) if your PS3 has a network connection available.
 
 **Note:** Downloaded art files are cached on `/dev_hdd0/game/NP0ANSIVW/USRDIR/CACHE/`.
 
@@ -58,8 +88,9 @@ You need to have installed:
 
 - [PS3 toolchain](https://github.com/bucanero/ps3toolchain)
 - [PSL1GHT](https://github.com/bucanero/PSL1GHT) SDK
-- [libansilove](https://github.com/bucanero/libansilove) library (my own custom version)
 - [Tiny3D](https://github.com/Estwald/PSDK3v2/tree/master/libraries-src/Tiny3D) library (from Estwald)
+- [MikMod](https://github.com/ps3dev/ps3libraries/blob/master/scripts/011-libmikmod-3.1.11.sh) library
+- [libansilove](https://github.com/bucanero/libansilove) library (my own custom version)
 - [libcurl](https://github.com/ps3dev/ps3libraries/blob/master/scripts/016-libcurl-7.31.0.sh) library
 - [dbglogger lib](https://github.com/bucanero/psl1ght-libs/tree/master/dbglogger) (my own debug logging library)
 
