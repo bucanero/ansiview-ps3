@@ -115,7 +115,7 @@ app_config_t app_config = {
 
 const menu_option_t menu_options[] = {
 	{ .name = "Background Music", .options = NULL, .type = APP_OPTION_BOOL, .value = &app_config.music, .callback = music_callback },
-	{ .name = "Sort Saves", .options = NULL, .type = APP_OPTION_BOOL, .value = &app_config.doSort, .callback = sort_callback },
+	{ .name = "Sort Files & Folders", .options = NULL, .type = APP_OPTION_BOOL, .value = &app_config.doSort, .callback = sort_callback },
 	{ .name = "Menu Animations", .options = NULL, .type = APP_OPTION_BOOL, .value = &app_config.doAni, .callback = ani_callback },
 	{ .name = "Screen Horizontal Margin", .options = NULL, .type = APP_OPTION_INC, .value = &app_config.marginH, .callback = horm_callback },
 	{ .name = "Screen Vertical Margin", .options = NULL, .type = APP_OPTION_INC, .value = &app_config.marginV, .callback = verm_callback },
